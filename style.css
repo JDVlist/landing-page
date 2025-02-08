@@ -1,7 +1,37 @@
+/* GENERAL */
 body {
     font-family: -apple-system, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+
+.header, .footer, .main {
+    display: flex;
+    padding-left: 54px;
+    padding-right: 54px;
+}
+
+/* HEADER AND FOOTER */
+.header, .footer {
+    background-color: #1F2937;
+    color: whitesmoke;
 }
 
 .header {
-    background-color: blue;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    gap: 20px;
+}
+
+.footer {
+    justify-content: center;
+    align-items: center;
+    height: 48px;
 }
