@@ -124,3 +124,25 @@ button {
     padding: 20px;
   }
 
+  /* SECTION 3 */
+.section3 {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    color: #1F1937;
+}
+
+.quote {
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 36px;
+    margin: 0px;
+}
+
+.quote-source {
+    margin: 0;
+    margin-right: 24px;
+    text-align: right;
+    font-weight: bold;
+}
