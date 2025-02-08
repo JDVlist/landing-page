@@ -2,20 +2,38 @@
 body {
     font-family: -apple-system, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
-}
-
-.header, .footer, .main {
+    min-height: 100vh;
     display: flex;
-    padding-left: 54px;
-    padding-right: 54px;
+    flex-direction: column;
+    justify-content: stretch;
 }
 
-/* HEADER AND FOOTER */
-.header, .footer {
+button {
+    font-family: Roboto, sans-serif;
+    border: none;
+    border-radius: 8px;
+    background: #3882F6;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    width: 128px;
+    height: 32px;
+  }
+
+.header, .footer, .section1, .section2, .section3, .section4 {
+    display: flex;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.header, .footer, .section1 {
     background-color: #1F2937;
     color: whitesmoke;
 }
 
+/* HEADER AND FOOTER */
 .header {
     height: 50px;
     justify-content: space-between;
@@ -34,4 +52,27 @@ body {
     justify-content: center;
     align-items: center;
     height: 48px;
+}
+
+/* MAIN */
+.main {
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+
+.profile-pic{
+    display: flex;
+    width: 248px;
+    height: 248px;
+}
+
+/* SECTION 1 */
+.section1 {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    gap: 48px;
+}
+.section1 .container {
+    display: flex;
+    flex-direction: column;
 }
