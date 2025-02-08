@@ -35,10 +35,15 @@ button {
 
 /* HEADER AND FOOTER */
 .header {
-    height: 50px;
+    height: 64px;
     justify-content: space-between;
     align-items: center;
 }
+
+.header img {
+    height: 36px;
+    width: 36px;
+} 
 
 .header ul {
     list-style-type: none;
